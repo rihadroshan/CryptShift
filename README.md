@@ -29,7 +29,7 @@ CryptShift is a Python program that allows you to encrypt and decrypt messages u
 
 3. Run the program:
    ```
-   python CryptShift.py
+   python3 CryptShift.py
    ```
 
 4. Follow the prompts to encrypt or decrypt a message.
