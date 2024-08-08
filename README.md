@@ -1,6 +1,6 @@
 # CryptShift
 
-CryptShift is a Python program that allows you to encrypt and decrypt messages using the Caesar cipher technique. The Caesar cipher shifts each letter in a message by a fixed number of positions down or up the alphabet.
+**CryptShift** is a Python program that allows you to encrypt and decrypt messages using the Caesar cipher technique. The Caesar cipher shifts each letter in a message by a fixed number of positions down or up the alphabet.
 
 ## Usage
 
