@@ -15,7 +15,7 @@
 
 1. Clone the repository:
    ```
-   git clone https://github.com/rihadroshan/PRODIGY_CS_01.git
+   git clone https://github.com/rihadroshan/CryptShift.git
    ```
 
 2. Navigate into the project directory:
