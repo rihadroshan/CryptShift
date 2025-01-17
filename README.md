@@ -20,7 +20,7 @@
 
 2. Navigate into the project directory:
    ```
-   cd PRODIGY_CS_01
+   cd CryptShift
    ```
 
 3. Run the program:
