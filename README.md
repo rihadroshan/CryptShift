@@ -15,7 +15,7 @@
 
 1. Clone the repository:
    ```
-   git clone https://github.com/rihadroshan/CryptShift.git
+   git clone https://github.com/rihadroshan/cryptshift.git
    ```
 
 2. Navigate into the project directory:
