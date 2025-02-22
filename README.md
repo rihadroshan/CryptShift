@@ -1,38 +1,51 @@
-## Usage
+# CryptShift: A Simple Caesar Cipher Encryption Tool  
 
-1. **Encryption**: To encrypt a message, each letter in the message is shifted forward in the alphabet by a specified number of positions.
+**CryptShift** is a user-friendly command-line application that implements the classic **Caesar cipher** — a simple yet effective encryption technique. It allows you to securely encode and decode messages by shifting letters in the alphabet by a specified number of positions.  
 
-2. **Decryption**: To decrypt an encrypted message, each letter is shifted backward by the same number of positions to recover the original message.
+## Features  
 
-## Features
-
-- **Shift Value**: You can specify the number of positions each letter should be shifted in the alphabet.
-- **Supports**: It supports both uppercase and lowercase letters in the English alphabet.
-- **Input Validation**: Validates user inputs for choice (encrypt/decrypt) and shift value.
-- **Error Handling**: Provides error messages for invalid inputs.
+- **Encryption and Decryption**:  
+  - *Encryption*: Shifts each letter forward in the alphabet by a specified amount.  
+  - *Decryption*: Shifts each letter backward to recover the original message.  
+- **Shift Value Customization**: Define the number of positions to shift letters, offering flexibility in how secure your message is.  
+- **Case Sensitivity**: Supports both uppercase and lowercase letters. Non-alphabetic characters (like punctuation and numbers) remain unchanged.  
+- **Input Validation**:  
+  - Ensures the shift value is a valid number.  
+  - Guides users to make correct choices (encrypt or decrypt).  
+- **Error Handling**: Friendly error messages for invalid inputs.  
 
 ## How to Use
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/rihadroshan/cryptshift.git
-   ```
+1. **Clone the repository**:
 
-2. Navigate into the project directory:
-   ```
-   cd cryptshift
-   ```
+```bash
+git clone https://github.com/rihadroshan/cryptshift.git
+cd cryptshift
+```
 
-3. Run the program:
-   ```
-   python3 cryptshift.py
-   ```
+3. **Run the program**:
 
-4. Follow the prompts to encrypt or decrypt a message.
+```bash
+python3 cryptshift.py
+```
 
-## Example
+## Usage  
 
-Here's an example of how to use the Caesar cipher program:
+1. **Launch the program**.  
+2. **Choose an action**:  
+   - Type `e` to **encrypt** a message.  
+   - Type `d` to **decrypt** a message.  
+3. **Enter the shift value**: Input a number representing how many positions each letter should be shifted.  
+4. **Provide your message**:  
+   - If encrypting, type the message you want to secure.  
+   - If decrypting, enter the encrypted message to reveal the original text.  
+5. **View the result**: Your encrypted or decrypted message will be displayed.  
+
+---
+
+## Example  
+
+**Encryption**:  
 
 ```
 Welcome to CryptShift!
@@ -44,4 +57,18 @@ Please enter the shift value (a number): 3
 Please enter the message you want to encrypt: Hello, World!
 
 Here is your encrypted message: Khoor, Zruog!
+```
+
+**Decryption**:  
+
+```
+Welcome to CryptShift!
+
+Would you like to encrypt or decrypt a message? Please type 'e' for encrypt or 'd' for decrypt: d
+
+Please enter the shift value (a number): 3
+
+Please enter the message you want to decrypt: Khoor, Zruog!
+
+Here is your decrypted message: Hello, World!
 ```
