@@ -25,7 +25,7 @@
 
 3. Run the program:
    ```
-   python3 CryptShift.py
+   python3 cryptshift.py
    ```
 
 4. Follow the prompts to encrypt or decrypt a message.
