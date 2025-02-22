@@ -20,7 +20,7 @@
 
 2. Navigate into the project directory:
    ```
-   cd CryptShift
+   cd cryptshift
    ```
 
 3. Run the program:
