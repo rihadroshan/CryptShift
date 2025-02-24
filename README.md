@@ -41,7 +41,6 @@ python3 cryptshift.py
    - If decrypting, enter the encrypted message to reveal the original text.  
 5. **View the result**: Your encrypted or decrypted message will be displayed.  
 
----
 
 ## Example  
 
